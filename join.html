@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Join Us! |NP Taiko</title>
+    
 </head>
 <body>
     <header>
@@ -14,5 +15,49 @@
                 <li><a href="join.html">Join us!</a></li>
             </ul>
         </nav> 
+    </header>
+    <form id="idForm">
+        <!--Titles-->
+        <h1>Join us!</h1>
+        <p>Indicate your interest to join NPTaiko next academic year!</p>
+        <!--Name input-->
+        <label for="name">Full name as per NRIC</label><br>
+        <input type="text" id="name" name="name" placeholder="Full name" required><br>
+        <!--ID input-->
+        <label for="studid">Student ID (Without the S, eg. 12345678B)</label><br>
+        <input type="text" id="studid" name="studid" placeholder="Student ID" required><br>
+        <!--Academic School input-->
+        <label for="acad">Academic School</label><br>
+        <select id="acad" name="acad" required>
+            <!--Dropdown menu to select schools-->
+            <optgroup label="Academic School">
+                <option value="none">~Select an option~</option>
+                <option value="BA">BA</option>
+                <option value="DE">DE</option>
+                <option value="SOE">SOE</option>
+                <option value="FMS">FME</option>
+                <option value="HS">HS</option>
+                <option value="HMIS">HMIS</option>
+                <option value="ICT">ICT</option>
+                <option value="LSCT">LSCT</option>
+            </optgroup>    
+        </select><br>
+        <!--Year input-->
+        <label for="year">Year of studies</label><br>
+        <select id="year" name="year" required>
+            <!--Dropdown menu to select year-->
+            <optgroup label="Year of Study">
+                <option value="none">~Select an option~</option>
+                <option value="4">PFP</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </optgroup>
+        </select><br>
+        <input type="submit" value="Submit">
+        <!--Javascript script to check Student ID for length-->
+        <script src="joinform.js"></script>
+
+    </form>
 </body>
 </html>
