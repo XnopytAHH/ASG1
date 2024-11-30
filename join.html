@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesjoin.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css">
     <title>Join Us! |NP Taiko</title>
     
 </head>
 <body>
     <header>
-        <nav>
-          <span onclick="homepage()">NP Taiko</span>
-          <span onclick="performancepage()">Our performances</span>
-          <span onclick="joinpage()">Join us!</span>
-      </nav> 
-      <script src="navigation.js"></script>
-    </header>
+        <a href="index.html" class="logo-container">
+               <img src="assets/np_logo_black.svg" alt="NP Taiko Logo">
+               <span>NP TAIKO</span>
+           </a>
+       <nav>
+           <a href="performance.html">Our Performances</a>
+           <a href="join.html">Join Us!</a>
+       </nav>
+     </header>
     <section id="form-container">
     <form id="idForm">
         <!--Titles-->
