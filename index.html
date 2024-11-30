@@ -3,46 +3,45 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styleshome.css">
-
+<title>Home|NPTaiko</title>
 </head>
 <body>
   <header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="performance.html">Our Performances</a></li>
-            <li><a href="join.html">Join us!</a></li>
-        </ul>
+      <nav>
+        <span onclick="homepage()">NP Taiko</span>
+        <span onclick="performancepage()">Our performances</span>
+        <span onclick="joinpage()">Join us!</span>
     </nav> 
+    <script src="navigation.js"></script>
   </header>
-<div class="slideshow-container">
-  <img id="logo" src="assets/np_logo_black2.svg" width="400px" height="400px">
-  <div class="mySlides fade">
-    <img src="assets/photo1.jpg" style="width:100%">
-  </div>
+  <div class="slideshow-container">
+    <img id="logo" src="assets/np_logo_black2.svg" width="400px" height="400px">
+    <div class="mySlides fade">
+      <img src="assets/photo1.jpg" style="width:100%">
+    </div>
 
-  <div class="mySlides fade">
-    <img src="assets/photo2.jpg" style="width:100%">
-  </div>
+    <div class="mySlides fade">
+      <img src="assets/photo2.jpg" style="width:100%" id="top">
+    </div>
 
-  <div class="mySlides fade">
-    <img src="assets/photo3.jpg" style="width:100%">
-  </div>
+    <div class="mySlides fade">
+      <img src="assets/photo3.jpg" style="width:100%">
+    </div>
 
-  <div class="prev" onclick="plusSlides(-1)">
-    <p> ◀ </p>
+    <div class="prev" onclick="plusSlides(-1)">
+      <p> ◀ </p>
+    </div>
+    <div class="next" onclick="plusSlides(1)">
+      <p>▶ </p>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
   </div>
-  <div class="next" onclick="plusSlides(1)">
-    <p>▶ </p>
-  </div>
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-</div>
-<br>
-<script src="slideshowscript.js"></script>
+  <br>
+  <script src="slideshowscript.js"></script>
 
 
 
@@ -51,6 +50,13 @@
 <section>
   <h1>Who are we?</h1>
   <p>NP Taiko is a performance group from Ngee Ann Polytechnic, who specialize in the Japanese art of Taiko drumming. </p>
+  <br><br><br><br><br><br><br>
+  <h1>Who are we?</h1>
+  <p>NP Taiko is a performance group from Ngee Ann Polytechnic, who specialize in the Japanese art of Taiko drumming. </p>
+  <br><br><br><br><br><br><br>
+  <h1>Who are we?</h1>
+  <p>NP Taiko is a performance group from Ngee Ann Polytechnic, who specialize in the Japanese art of Taiko drumming. </p>
+  <br><br><br><br><br><br><br>
 </section>
 
 </body>

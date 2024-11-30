@@ -1,13 +1,38 @@
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+header span{
+  margin: 50px;
+  flex: 1; 
+  text-align: center; 
+  background-color: #bbb;
+}
+
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none;
 color: white;
 opacity: 0.5;
+#top{
+  object-position: top;
+}
 img{display: flex;
   vertical-align: middle; 
-  max-height: 1000px; object-fit: cover;}}
-
-
+  max-height: 1000px;
+   object-fit: cover;}}
 
 .slideshow-container {
   width: 100%;
