@@ -1,15 +1,12 @@
 function changeToVideo() {
-    const mediaContainer = document.getElementById("container");
-    const videoElement = document.createElement("video");
-    videoElement.setAttribute("width", "640");
-    videoElement.setAttribute("height", "360");
-    videoElement.setAttribute("controls", "controls");
-    const sourceMP4 = document.createElement("source");
-    sourceMP4.setAttribute("src", "assets/strings.mp4");
-    sourceMP4.setAttribute("type", "video/mp4");
-    videoElement.appendChild(sourceMP4);
-    mediaContainer.innerHTML = "";
-    mediaContainer.appendChild(videoElement);
+    var vidcontainer = document.getElementById("container");
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("width", "560");
+    iframe.setAttribute("height", "315");
+    iframe.setAttribute("src", "https://www.youtube.com/embed/XfNvCVUvZGI?si=bdoGHkFWHdWE-4oI");
+    iframe.setAttribute("allowfullscreen", "true");
+    vidcontainer.innerHTML = "";
+    vidcontainer.appendChild(iframe);
 }
 
 function changeToImage() {
@@ -24,17 +21,14 @@ function changeToImage() {
 }
 
 function changeToVideo2() {
-    const mediaContainer = document.getElementById("container2");
-    const videoElement = document.createElement("video");
-    videoElement.setAttribute("width", "640");
-    videoElement.setAttribute("height", "360");
-    videoElement.setAttribute("controls", "controls");
-    const sourceMP4 = document.createElement("source");
-    sourceMP4.setAttribute("src", "assets/goglobal.mp4");
-    sourceMP4.setAttribute("type", "video/mp4");
-    videoElement.appendChild(sourceMP4);
-    mediaContainer.innerHTML = "";
-    mediaContainer.appendChild(videoElement);
+    var vidcontainer = document.getElementById("container2");
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("width", "560");
+    iframe.setAttribute("height", "315");
+    iframe.setAttribute("src", "https://www.youtube.com/embed/pwnnMLAm7Jc?si=k1itJhDnTGhaNsLb");
+    iframe.setAttribute("allowfullscreen", "true");
+    vidcontainer.innerHTML = "";
+    vidcontainer.appendChild(iframe);
 }
 
 function changeToImage2() {
@@ -48,17 +42,14 @@ function changeToImage2() {
             mediaContainer.appendChild(imageElement);}
 
 function changeToVideo3() {
-    const mediaContainer = document.getElementById("container3");
-    const videoElement = document.createElement("video");
-    videoElement.setAttribute("width", "640");
-    videoElement.setAttribute("height", "360");
-    videoElement.setAttribute("controls", "controls");
-    const sourceMP4 = document.createElement("source");
-    sourceMP4.setAttribute("src", "assets/worlddrumnight.mp4");
-    sourceMP4.setAttribute("type", "video/mp4");
-    videoElement.appendChild(sourceMP4);
-    mediaContainer.innerHTML = "";
-    mediaContainer.appendChild(videoElement);
+    var vidcontainer = document.getElementById("container3");
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("width", "560");
+    iframe.setAttribute("height", "315");
+    iframe.setAttribute("src", "https://www.youtube.com/embed/Ty8PPMIFmW0?si=lm1kufnEI8ECrfnY");
+    iframe.setAttribute("allowfullscreen", "true");
+    vidcontainer.innerHTML = "";
+    vidcontainer.appendChild(iframe);
 }
 
 function changeToImage3() {
