@@ -22,11 +22,8 @@ form.addEventListener('submit', function (event) {
       }
       else {
         form.remove()
-        var para = document.createElement("p");
-        var message = document.createTextNode("Thanks for signing up! We'll see you next year :3");
-        para.appendChild(message);
-        const element = document.getElementById("form-container");
-        element.appendChild(para);
+        var joined=document.getElementById("hidden");
+        joined.style.display="flex";
         }
     }
     
