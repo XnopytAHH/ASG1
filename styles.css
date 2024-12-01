@@ -266,6 +266,10 @@ p.prev, p.next{
 .performance{
   flex-direction: column;
 }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> c2bf729912ea3cd7b01f991dc760e4991f7a7a32
 .info{
   margin-left: auto;
   margin-right: auto;
@@ -274,4 +278,7 @@ p.prev, p.next{
 
 .info h1{font-size: 20px;}
 .info p{font-size: 10px;}
+<<<<<<< HEAD
 }
+=======
+>>>>>>> c2bf729912ea3cd7b01f991dc760e4991f7a7a32
