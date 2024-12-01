@@ -48,13 +48,14 @@ body {font-family: "Raleway", sans-serif; margin:0;
 .mySlides {display: none;
 color: black;
 opacity: 0.5;
-#top{
+.top{
   object-position: top;
 }
-img{display: flex;
+img{
+  display: flex;
   vertical-align: middle; 
   max-height: 700px;
-   object-fit: cover;}}
+  object-fit: cover;}}
 
 .slideshow-container {
   width: 100%;
