@@ -61,5 +61,3 @@ function changeToImage3() {
             // Replace the video with the image
             mediaContainer.innerHTML = "";
             mediaContainer.appendChild(imageElement);}
-
-window.open('google.com');
