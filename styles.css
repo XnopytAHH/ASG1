@@ -153,6 +153,10 @@ p.prev, p.next{
   width: 100%;
   height: auto;
   border-radius: 10px;}
+.left video{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;}
 
 .right{
   display: flex;
