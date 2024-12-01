@@ -199,8 +199,57 @@ button img{
 button:hover{
   background-color: #555;
 }
+/*Join us page*/
+#form-container{
+  display: flex;
+  flex-direction: row;
+  border-radius: 13px;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+#idForm{
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 10px;
+  width: 50%;
+  height: 95%;}
+#idForm h1{
+  font-family: 'Lato' sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+} 
+#idForm b{
+  font-family: 'Lato' sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;}
+
+label{
+  font-size: 20px;}
+input,select{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 20px;
+}
+  
+
+#image-container{
+  display: flex;
+  flex:1;
+  margin: 0 10px;
+  padding: 10px;
+  width: 50%;
+  height: 95%;
+}
 /* Mobile formatting*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
   * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none;
@@ -266,19 +315,54 @@ p.prev, p.next{
 .performance{
   flex-direction: column;
 }
-<<<<<<< HEAD
-=======
-}
->>>>>>> c2bf729912ea3cd7b01f991dc760e4991f7a7a32
+
 .info{
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
 }
-
 .info h1{font-size: 20px;}
 .info p{font-size: 10px;}
-<<<<<<< HEAD
+#form-container{
+  color: white;
+  flex-direction: row;
+  border-radius: 13px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0,0,0,0.0);}
+
+#image-container{
+  position: absolute;
+  margin: 0 10px;
+  padding: 10px;
+  width: 95%;
+  height: 95%;
+object-fit: cover;}
+  
+#image-container img{
+  max-width: 100%;}
+#idForm{
+    color: white;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(0,0,0,0.6  );
+    text-align: center; }
+    #idForm h1{
+      color: white;
+      font-family: 'Lato' sans-serif;
+      text-align: center;
+    } 
+    #idForm b{
+      color: white;
+      font-family: 'Lato' sans-serif;
+      text-align: center;
+      margin-bottom: 40px;}
+    
 }
-=======
->>>>>>> c2bf729912ea3cd7b01f991dc760e4991f7a7a32
