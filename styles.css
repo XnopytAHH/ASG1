@@ -48,7 +48,8 @@ nav {
 }
 
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Verdana, sans-serif; margin:0;
+   background-color: black;}
 .mySlides {display: none;
 color: white;
 opacity: 0.5;
@@ -63,6 +64,7 @@ img{display: flex;
 .slideshow-container {
   width: 100%;
   position: relative;
+  background-color: white;  
 
 }
 
@@ -132,9 +134,13 @@ p.prev, p.next{
   to {opacity: 0.5}
 }
 /* performance page*/
+h1{
+  text-align: center;
+  color: white;
+}
 .performance{
   display: flex;
-  
+  border-radius: 13px;
   margin: 10px;
   padding: 10px;
   width: 96%;
@@ -168,7 +174,20 @@ p.prev, p.next{
   height: 50%;
   justify-content: flex-start;
 }
-
+button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+button img{
+  width: 15px;
+  height: 15px;
+  margin: 0 10px;
+}
 /* Mobile formatting*/
 @media only screen and (max-width: 600px) {
   * {box-sizing: border-box}
